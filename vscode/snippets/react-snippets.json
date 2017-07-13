@@ -3,7 +3,8 @@
     "prefix": "createState",
     "body": [
       "createState('${1:sandboxName}', {",
-      "\tinitial: ${2:initital value for your state},\n",
+      "\tinitial: {",
+      "\t\t$2\n\t},",
       "\t${3:actionName}(state, payload) {",
       "\t\t${0:return { ...state, payload \\};}",
       "\t}",
