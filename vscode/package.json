@@ -4,6 +4,9 @@
   "description": "Snippets for Javascript at Youzan",
   "version": "1.0.0",
   "publisher": "cpylua",
+  "scripts": {
+    "publish": "vsce publish"
+  },
   "engines": {
     "vscode": "^1.14.0"
   },

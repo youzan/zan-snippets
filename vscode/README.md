@@ -19,7 +19,7 @@ Supported snippets:
 * createhook
 * ajax
 * importzent
-* import lodash
+* importlodash
 
 ## Installation
 
