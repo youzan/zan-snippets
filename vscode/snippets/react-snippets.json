@@ -1,0 +1,66 @@
+{
+  "createState": {
+    "prefix": "createState",
+    "body": [
+      "createState('${1:sandboxName}', {",
+      "\tinitial: ${2:initital value for your state},\n",
+      "\t${3:actionName}(state, payload) {",
+      "\t\t${0:return { ...state, payload \\};}",
+      "\t}",
+      "});"
+    ],
+    "description": "[shuai]Create a sandboxed state"
+  },
+
+  "createStateAction": {
+    "prefix": "createStateAction",
+    "body": [
+      "${1:actionName}(state, payload) {",
+      "\t${0:return { ...state, payload \\};}",
+      "}"
+    ],
+    "description": "[shuai]Create a sandboxed state"
+  },
+
+  "createEffect": {
+    "prefix": "createEffect",
+    "body": [
+      "createEffect('${1:effectPrefix}', {",
+      "\t${2:effectName}() {",
+      "\t\t$0",
+      "\t}",
+      "});"
+    ],
+    "description": "[shuai]Create effects with a prefix"
+  },
+
+  "createHook": {
+    "prefix": "createHook",
+    "body": ["createHook((action, getState) => {", "\t$0", "});"],
+    "description": "[shuai]Create a hook"
+  },
+
+  "ajax": {
+    "prefix": "ajax",
+    "body": [
+      "ajax({",
+      "\turl: `\\${window._global.url.${1:www}\\}/${2:api/endpoint.json}`,",
+      "\tmethod: '${3:GET}',",
+      "\tdata: $0",
+      "});"
+    ],
+    "description": "[ajax]Send an AJAX request"
+  },
+
+  "import zent": {
+    "prefix": "importzent",
+    "body": ["import { $1 } from 'zent';$0"],
+    "description": "[zent]Import components from zent"
+  },
+
+  "import lodash": {
+    "prefix": "importlodash",
+    "body": ["import $1 from 'lodash/$1';$0"],
+    "description": "[lodash]Import a function from lodash"
+  }
+}

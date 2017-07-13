@@ -1,0 +1,23 @@
+{
+  "name": "zan-snippets",
+  "displayName": "Youzan JavaScript Snippets",
+  "description": "Snippets for Javascript at Youzan",
+  "version": "1.0.0",
+  "publisher": "cpylua",
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/react-snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react-snippets.json"
+      }
+    ]
+  }
+}
