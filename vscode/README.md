@@ -14,12 +14,15 @@ Type part of a snippet, press Enter, and the snippet unfolds.
 
 Supported snippets:
 
-* createstate
-* createeffect
-* createhook
-* ajax
-* importzent
-* importlodash
+| Trigger  | Template |
+| ------------- | ------------- |
+| createstate  | [shuai]createState skeleton |
+| createstateaction | [shuai]createState action skeleton  |
+| createeffect | [shuai]createEffect skeleton |
+| createhook | [shuai]createHook skeleton |
+| ajax | [ajax]ajax request skeleton |
+| importzent | [zent]Zent component import skeleton |
+| importlodash | [lodash] lodash function import skeleton |
 
 ## Installation
 
