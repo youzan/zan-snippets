@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+ajax({
+  url: `${1:window._global.url.www}/${2:api/endpoint.json}`,
+  method: '${3:GET}',
+  data: ${4:}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ajax</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>zan-snippet</description>
+</snippet>
