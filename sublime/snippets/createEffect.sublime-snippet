@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+createEffect('${1:effectPrefix}', {
+  ${2:effectName}() {
+    ${3:}
+  }
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>createEffect</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>zan-snippet</description>
+</snippet>

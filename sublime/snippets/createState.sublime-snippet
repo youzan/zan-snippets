@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+createState('${1:sandboxName}', {
+  initial: {
+    ${2:}
+  },
+  ${3:actionName}(state, payload) {
+    return { ...state, payload };
+  }
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>createState</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>zan-snippet</description>
+</snippet>
