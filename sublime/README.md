@@ -27,12 +27,8 @@ Supported snippets:
 ## Installation
 
 ### OSX
-
 ```
-$ cd  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-
-$ git clone https://github.com/youzan/zan-snippets.git zan-snippets
-
+curl -s https://raw.githubusercontent.com/youzan/zan-snippet/master/bin/sublimeInstall.sh | sh
 ```
 
 # License
