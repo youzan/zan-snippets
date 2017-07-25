@@ -28,7 +28,7 @@ Supported snippets:
 
 ### OSX
 ```
-curl -s https://raw.githubusercontent.com/youzan/zan-snippet/master/bin/sublimeInstall.sh | sh
+curl -s https://raw.githubusercontent.com/youzan/zan-snippets/master/bin/sublimeInstall.sh | sh
 ```
 
 # License
